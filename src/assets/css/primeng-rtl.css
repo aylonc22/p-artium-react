@@ -1,0 +1,54 @@
+.p-datatable tr {
+  background: #1e1e1e !important;
+  color: white !important;
+}
+.p-tabview-panels{  
+  background: #1e1e1e !important;
+  color: white !important;
+}
+.p-datatable th{
+  background: #1e1e1e !important;
+  color: white !important;
+}
+
+.p-datatable-footer{
+  background: #1e1e1e !important;
+}
+
+.p-column-title{
+  background: #1e1e1e !important; 
+  color: white;
+}
+
+.p-paginator{
+  background: #1e1e1e !important; 
+}
+
+.p-tabview-nav{  
+  background: #121212 !important;
+
+}
+
+.p-tabview-nav-link{
+  background: #121212 !important;
+}
+
+.p-dialog-header{
+  background: #1e1e1e !important;
+  color: white !important;
+  width: 310px !important;
+}
+
+.p-dialog-content{
+  background: #1e1e1e !important;
+  color: white !important;
+}
+
+.p-inputtext{
+  background: #121212 !important;
+  color: white !important;
+}
+
+.pi-download:hover{
+  cursor:pointer !important;
+}

@@ -1,0 +1,532 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "ארטיום",
+      "startDate": "12/08/2020",
+      "address": {
+        "city": "לוד",
+        "street": "מפרץ שלמה",
+        "number": "37",
+        "code": "321234568"
+      },
+      "account": 13020.0,
+      "type": "מקור",
+      "heDesc": "חשבון טסט חשבון טסט",
+      "enDesc": "ABCDEF BBB",
+      "factory": {
+        "logo": "LOGO",
+        "desc": "בלה בלה ",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "87654321",
+        "fax": "87654321",
+        "internet": "www.bla-bla-bla.co.il",
+        "code": "12345678",
+        "bank": {
+          "id": "16",
+          "name": "מזרחי טפחות",
+          "branch": { "id": "356", "name": "אחיעזר" },
+          "account": "125896348",
+          "swift": "NNNNNN",
+          "address": {
+            "city": "בני-ברק",
+            "street": "חזון איש",
+            "number": "12",
+            "code": "5952184"
+          },
+          "iban": "39 0134 0215 5894 5621 605"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "ליאו",
+      "startDate": "12/08/2020",
+      "address": {
+        "city": "חיפה",
+        "street": "אחד העם",
+        "number": "41",
+        "code": "32468908"
+      },
+      "account": 1549.23,
+      "type": "מקור",
+      "heDesc": "חשבון טסט חדש חשבון טסט",
+      "enDesc": "ABCDEF BBB",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "856924173",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראל בע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "שלום",
+      "startDate": "04/01/2022",
+      "address": {
+        "city": "פתח תקוה",
+        "street": "טרומפלדור",
+        "number": "18",
+        "code": "85123642"
+      },
+      "account": 1549.23,
+      "type": "עותק",
+      "heDesc": "חשבון חדש חשבון חדש",
+      "enDesc": "FDS FTY",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "856924173",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראל בע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "ברק",
+      "startDate": "12/08/2020",
+      "address": {
+        "city": "לוד",
+        "street": "מפרץ שלמה",
+        "number": "37",
+        "code": "321234568"
+      },
+      "account": 13020.0,
+      "type": "מקור",
+      "heDesc": "חשבון טסט חשבון טסט",
+      "enDesc": "ABCDEF BBB",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "12345678",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראל בע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "נעם",
+      "startDate": "04/01/2022",
+      "address": {
+        "city": "חיפה",
+        "street": "אחד העם",
+        "number": "41",
+        "code": "32468908"
+      },
+      "account": 1549.23,
+      "type": "מקור",
+      "heDesc": "חשבון טסט חדש חשבון טסט",
+      "enDesc": "ABCDEF BBB",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "856924173",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראל בע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "יעקב",
+      "startDate": "12/08/2020",
+      "address": {
+        "city": "פתח תקוה",
+        "street": "טרומפלדור",
+        "number": "18",
+        "code": "85123642"
+      },
+      "account": 1549.23,
+      "type": "עותק",
+      "heDesc": "חשבון חדש חשבון חדש",
+      "enDesc": "FDS FTY",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "856924173",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראל בע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "אברהם",
+      "startDate": "1/03/2020",
+      "address": {
+        "city": "חיפה",
+        "street": "אחד העם",
+        "number": "41",
+        "code": "32468908"
+      },
+      "account": 1549.23,
+      "type": "מקור",
+      "heDesc": "חשבון טסט חדש חשבון טסט",
+      "enDesc": "ABCDEF BBB",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "856924173",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראל בע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "דוד",
+      "startDate": "12/08/2020",
+      "address": {
+        "city": "חיפה",
+        "street": "אחד העם",
+        "number": "41",
+        "code": "32468908"
+      },
+      "account": 1549.23,
+      "type": "מקור",
+      "heDesc": "חשבון טסט חדש חשבון טסט",
+      "enDesc": "ABCDEF BBB",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "856924173",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראלבע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "קובי",
+      "startDate": "1/5/2019",
+      "address": {
+        "city": "פתח תקוה",
+        "street": "טרומפלדור",
+        "number": "18",
+        "code": "85123642"
+      },
+      "account": 1549.23,
+      "type": "עותק",
+      "heDesc": "חשבון חדש חשבון חדש",
+      "enDesc": "FDS FTY",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "856924173",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראלבע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "יוחנן",
+      "startDate": "12/08/2020",
+      "address": {
+        "city": "לוד",
+        "street": "מפרץ שלמה",
+        "number": "37",
+        "code": "321234568"
+      },
+      "account": 13020.0,
+      "type": "מקור",
+      "heDesc": "חשבון טסט חשבון טסט",
+      "enDesc": "ABCDEF BBB",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "12345678",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראלבע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "סשה",
+      "startDate": "1/5/2019",
+      "address": {
+        "city": "לוד",
+        "street": "מפרץ שלמה",
+        "number": "37",
+        "code": "321234568"
+      },
+      "account": 13020.0,
+      "type": "מקור",
+      "heDesc": "חשבון טסט חשבון טסט",
+      "enDesc": "ABCDEF BBB",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "12345678",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראלבע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "לאה",
+      "startDate": "12/08/2020",
+      "address": {
+        "city": "פתח תקוה",
+        "street": "טרומפלדור",
+        "number": "18",
+        "code": "85123642"
+      },
+      "account": 1549.23,
+      "type": "עותק",
+      "heDesc": "חשבון חדש חשבון חדש",
+      "enDesc": "FDS FTY",
+      "factory": {
+        "logo": "logo",
+        "desc": "בלה בלה בלה",
+        "address": {
+          "city": "תל אביב",
+          "location": "מגדל עזריאלי",
+          "street": "קפלן",
+          "number": "55",
+          "code": "321234568"
+        },
+        "tel": "12345678",
+        "fax": "12345678",
+        "internet": "www.bla-bla.co.il",
+        "code": "856924173",
+        "bank": {
+          "id": "22",
+          "name": "לאומי ישראלבע''מ",
+          "branch": { "id": "111", "name": "ראשי" },
+          "account": "555555",
+          "swift": "AAAAA",
+          "address": {
+            "city": "תל אביב",
+            "street": "משה שרת",
+            "number": "21",
+            "code": "321234568"
+          },
+          "iban": "46 0134 4500 0000 4302 605"
+        }
+      }
+    }
+  ]
+}
