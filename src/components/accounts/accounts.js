@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useEffect, useState} from "react";
 import { DataTable } from 'primereact/datatable';
 import { Button } from 'primereact/button';
 import { Column } from 'primereact/column';
@@ -19,6 +19,11 @@ const Accounts = ({})=>{
     const [visible, setVisible] = useState(false);
     const [accounts,setAccounts] = useState(require('../../assets/mock-data/accounts.json').accounts);   
     const [toShow,setToShow] = useState(accounts);
+
+    useEffect(()=>{
+        console.log(accounts);
+        filter();
+    },[accounts]);
     
     const filter = ()=>{                      
         if(searchAccount=="" && (searchDate =="" || searchDate== null))
@@ -62,7 +67,7 @@ const Accounts = ({})=>{
         <Calendar  dateFormat="dd/mm/yy" onChange={(e) => setDate(e.value)} />
         <div></div>
         <Button style={{marginTop:"20px",marginLeft:"20px"}} label="שמור" onClick={()=>{
-            setAccounts(current=>[...current,{id:accountId,name:accountName,startDate:date}]);
+            setAccounts(current=>[...current,{id:Number(accountId),name:accountName,startDate:date.toLocaleDateString("pt-BR")}]);
             setVisible(false);
         }}></Button>      
         <Button style={{marginTop:"20px"}} label="בטל" onClick={()=>{
